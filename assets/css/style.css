@@ -1,0 +1,64 @@
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+}
+.mybox {
+  height: 200px;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+  width: 200px;
+  border-radius: 10px;
+  background-color: red;
+}
+.common-circle {
+  height: 30px;
+  width: 30px;
+  background-color: aqua;
+}
+.bg-img {
+  background-image: url(../images/Section\ 3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.man_img {
+  bottom: 10%;
+  left: 50%;
+  width: 7%;
+  transform: translateX(-50%);
+}
+.cloud_img {
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  width: 100%;
+  bottom: -16%;
+}
+.bull_img {
+  bottom: 0;
+  left: 17%;
+}
+.bear_img {
+  bottom: 0;
+  right: 20%;
+}
+.content{
+  top: 50%;
+  z-index: 10;
+  transform: translate(-50% , -50%);
+  position: absolute;
+  left: 50%;
+}
+.content h3{
+  color: white;
+  text-align: center;
+}
+.content p{
+  color: white;
+  font-weight: 400;
+  font-family: sans-serif;
+  max-width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
